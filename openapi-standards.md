@@ -832,10 +832,10 @@ properties:
     minimum: 0
     maximum: 150
   price:
-    type: number
-    format: float
+    type: integer
+    description: "Price in the smallest currency unit (e.g., cents)."
     minimum: 0
-    multipleOf: 0.01    # For currency precision
+    multipleOf: 1       # For currency precision
   percentage:
     type: number
     minimum: 0
